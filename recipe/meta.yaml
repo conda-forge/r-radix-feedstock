@@ -1,4 +1,4 @@
-{% set version = '0.6' %}
+{% set version = "0.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,8 +13,8 @@ source:
   sha256: cbd2d8d9d796bd68d085deab5eb5342e3500d320042fd9b24ec4a0ae3cb02009
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-base64enc
@@ -73,11 +73,10 @@ test:
 
 about:
   home: https://github.com/rstudio/radix
-  license: Apache 2.0
-  summary: Scientific and technical article format for the web. 'Radix' articles  feature attractive,
-    reader-friendly typography, flexible layout options for visualizations, and full
-    support for footnotes and citations.
+  license: Apache-2.0
+  summary: Scientific and technical article format for the web. 'Radix' articles  feature attractive, reader-friendly typography, flexible layout options for visualizations, and full support for footnotes and citations.
   license_family: APACHE
+  license_file: LICENSE-2.0.txt
 
 extra:
   recipe-maintainers:
