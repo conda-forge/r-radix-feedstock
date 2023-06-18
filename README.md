@@ -1,11 +1,11 @@
-About r-radix
-=============
+About r-radix-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-radix-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/radix
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-radix-feedstock/blob/main/LICENSE.txt)
 
 Summary: Scientific and technical article format for the web. 'Radix' articles  feature attractive, reader-friendly typography, flexible layout options for visualizations, and full support for footnotes and citations.
 
